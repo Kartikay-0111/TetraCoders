@@ -35,6 +35,17 @@ function Student_dashboard() {
                             <h3>2 Problem Statements from AutoDesk Interview</h3>
                         </div>
                     </div>
+                    <div className ="mylibrary">
+                        <a href="/libhome">
+                        <h3>
+                            Library
+                        </h3>
+                        <p className="desc-lib">
+                            Dive into a plethora of extremely helpful material orchestrated by your alumnis like Experiences, Important interview questions and study material.
+
+                        </p>
+                        </a>
+                    </div>
                 </div>
                 <div className="chat">
                 
