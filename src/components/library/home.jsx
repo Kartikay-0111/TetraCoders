@@ -7,7 +7,7 @@ const Home = () => {
 const [error,setError] = useState(null)
     useEffect(() => {
 
-        fetch('http://localhost:8000/content')
+        fetch('http://localhost:8010/content')
             .then(res => {
                 return res.json();
                 if(!res.ok){
