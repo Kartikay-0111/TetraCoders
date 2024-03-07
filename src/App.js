@@ -11,7 +11,7 @@ import data from './components/calendar/DataBase/data.jsx';
 import Home from './components/library/home';
 import Events from './components/calendar/Events/Events';
 import Studentregistration from './components/login/registrationpage1';
-import Experience from './components/library/inexpe';
+import Experience from './components/library/ContentList.jsx';
 import ChatApp from './components/chat/chat.jsx';
 import Collegeregistration from './components/login/registrationpage3';
 import Companyregistration from './components/login/registrationpage2';
@@ -20,7 +20,7 @@ import Recruiter_Dashboard from './components/recruiter-dashboard/recruiter-dash
 import { useEffect } from 'react';
 import Input from './components/library/input.jsx';
 import Input2 from './components/library/input2.jsx';
-
+import ContentList from './components/library/ContentList.jsx';
 
 function App() {
   useEffect(() => {
@@ -51,6 +51,7 @@ function App() {
           <Route path="/exp" element={<Experience />} />
           <Route path="/dashboard" element={<Student_dashboard />} />
           <Route path="/libhome" element={<Home />} />
+          <Route path="/inex" element={<ContentList />} />
           <Route path="/tpo" element={<Recruiter_Dashboard />} />
         </Routes>
     </BrowserRouter>
