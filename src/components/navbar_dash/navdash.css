@@ -1,0 +1,63 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: linear-gradient(to right, #add8e6, #87ceeb);
+    padding: 0 10px; /* Adjust padding as needed */
+    min-width: 300px;
+  }
+  
+  .left-icons,
+  .right-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .chat-box-container {
+    position: absolute;
+    top: 0; /* Adjust as needed */
+    right: 0; /* Adjust as needed */
+    width: 80%; /* Adjust width to fit within the viewport */
+    max-width: 300px; /* Ensure it doesn't exceed 300px */
+    height: 400px; /* Adjust height as needed */
+    overflow: auto; /* Enable scrolling if content overflows */
+    background-color: white; /* Ensure it's visible against the background */
+    border: 1px solid #ccc; /* Optional: Add a border for visual separation */
+    padding: 10px; /* Optional: Add some padding inside the chat box */
+    z-index: 1000; /* Ensure it's above other elements */
+   }
+
+  .spacer {
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
+    
+  .toggle-chat-button {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    z-index: 1001; /* Ensure it's above the chat content */
+    background-color: blue;
+    border-radius: 50%;
+   }
+  
+  .right-icon{
+    padding-right: 10px;
+  }
+  .left-icons{
+    display: flex;
+    align-items: center;
+  }
+  .jobmate{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin-left: 20px;
+  }
+  .right-button:hover{
+    background-color: lightblue;
+
+  }
