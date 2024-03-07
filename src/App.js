@@ -48,7 +48,7 @@ function App() {
            <Route path="/libhome" element={<Home />} />
            <Route path="/input2" element={<Input2 />} />
            <Route path="/chat" element={<ChatApp />} />
-           <Route path="/dashboard" element={<Student_dashboard />} />
+           
            <Route path="/tpo" element={<Recruiter_Dashboard />} />
            
          </Routes>

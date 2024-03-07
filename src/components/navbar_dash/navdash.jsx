@@ -6,8 +6,10 @@ import { useState } from 'react';
 
 const PopUpComponent = ({ onClose }) => {
   return (
-      <ChatApp />
-     
+     <div className="chat-box-container">
+
+       <ChatApp />
+     </div>
   );
  };
 
@@ -27,7 +29,7 @@ const Navdash = () => {
       <div className="right-icons">
         {/* Icon on the extreme right */}
        
-                 <button className="right-button" onClick={togglePopUp}><IoChatboxEllipsesOutline size={30} color='cyan'/></button>
+                 <button className="toggle-chat-button" onClick={togglePopUp}><IoChatboxEllipsesOutline size={25} color='cyan'/></button>
       {isPopUpVisible && <PopUpComponent onClose={togglePopUp} />}
      
         {/* Spacer */}

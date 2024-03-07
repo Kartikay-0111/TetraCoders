@@ -9,10 +9,10 @@ const [condition, setCondition] = useState(false)
         <div className="w3-container ">
             <div className='w3-bottom w3-bar w3-black'>
                 <ul className='w3-cell-row'>
-                    <li className='w3-container w3-cell'><a className='w3-button w3-black w3-bar-item' href="/">Interview Experiences</a></li>
+                    <li className='w3-container w3-cell'><a className='w3-button w3-black w3-bar-item' href="/exp">Interview Experiences</a></li>
                     <li className='w3-container w3-cell'><a className='w3-button w3-black w3-bar-item' href="/">Study Materials</a></li>
                     <li className='w3-container w3-cell'><a type='button' onClick={() => { document.getElementById('id1').style.display = "block" }} className='w3-circle w3-button w3-black w3-bar-item'>Contribute</a></li>
-                    <li className='w3-container w3-cell'><a className='w3-button w3-black w3-bar-item' href="/">Interview questions</a></li>
+                    <li className='w3-container w3-cell'><a className='w3-button w3-black w3-bar-item' href="/exp">Interview questions</a></li>
                     <li className='w3-container w3-cell'><a className='w3-button w3-black w3-bar-item' href="/">Home</a></li>
                 </ul>
             </div>
