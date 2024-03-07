@@ -14,7 +14,7 @@ import { Router, Route, Routes, BrowserRouter , useLocation} from 'react-router-
 import Recruiter_Dashboard from './components/recruiter-dashboard/recruiter-dashboard';
 import { useEffect } from 'react';
 import Navdash from './components/navbar_dash/navdash.jsx'
-
+import Home from './components/library/home.jsx';
 import Input from './components/library/input.jsx';
 import Input2 from './components/library/input2.jsx';
 import ContentList from './components/library/ContentList.jsx';
