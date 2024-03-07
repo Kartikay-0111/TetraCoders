@@ -7,7 +7,7 @@ import Navbar from './components/library/Navbar.jsx';
 import data from './components/calendar/DataBase/data.jsx';
 import Events from './components/calendar/Events/Events';
 import Studentregistration from './components/login/registrationpage1';
-import Experience from './components/library/ContentList.jsx';
+
 import ChatApp from './components/chat/chat.jsx';
 import Collegeregistration from './components/login/registrationpage3';
 import { Router, Route, Routes, BrowserRouter , useLocation} from 'react-router-dom';
@@ -41,7 +41,7 @@ function App() {
            <Route path="/navbar" element={<Navbar />} />
             <Route path="/navdash" element={<Navdash />} />
            <Route path="/chat" element={<ChatApp />} />
-           <Route path="/exp" element={<Experience />} />
+           
            <Route path="/dashboard" element={<Student_dashboard />} />
            <Route path="/libhome" element={<Home />} />
            <Route path="/input2" element={<Input2 />} />
