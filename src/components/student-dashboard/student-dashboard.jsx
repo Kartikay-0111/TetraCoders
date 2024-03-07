@@ -2,12 +2,14 @@ import * as React from 'react'
 import './student-dashboard.css'
 import { useState } from 'react';
 import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';    
+import 'react-calendar/dist/Calendar.css';  
+
+
 
 function Student_dashboard() {
    
         const [value, onChange] = useState(new Date());
-    return (
+        return (
         <div className=''>
             <div className="student-dashboard-cont">
                 <div className="calendar">
@@ -34,6 +36,8 @@ function Student_dashboard() {
                         </div>
                     </div>
                 </div>
+                <div className="chat">
+                
                 <div className="companies-visited">
                     <h2>Companies visiting in upcoming week</h2>
                     <hr />
@@ -62,8 +66,12 @@ function Student_dashboard() {
                             <p>Autodesk</p>
                         </div>
                     </div>
+                   
                 </div>
+                
             </div>
+            
+        </div>
         </div>
     );
 }

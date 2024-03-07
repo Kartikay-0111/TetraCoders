@@ -1,13 +1,19 @@
 // src/App.js
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Studentregistration() {
+  const navigate = useNavigate();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate('/dashboard');
+  };
   return (
     <div className="App bg-gray-100 flex items-center justify-center h-screen">
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl font-bold mb-6">Student Registration</h2>
-        <form action="#" method="post">
+        <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="username" className="block text-sm font-medium text-gray-600">
               Username or Email: 
@@ -52,7 +58,7 @@ function Studentregistration() {
               type="text" id="college" className="mt-1 p-2 mb-6 w-full border rounded"
             />
           </div>
-          <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-300" >
+          <button type="submit"  className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-300" >
             Save and Next 
           </button>
 

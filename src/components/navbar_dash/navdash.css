@@ -1,0 +1,52 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    padding: 0 10px; /* Adjust padding as needed */
+    min-width: 300px;
+  }
+  
+  .left-icons,
+  .right-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .spacer {
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  .right-button{
+    position: fixed;
+    margin-right: 100px;
+    background-color: #247eba;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 500;
+    transition: 0.2s;
+    color: white;
+    border-radius: 8px;
+    
+  }  
+  
+  .right-icon{
+    padding-right: 10px;
+  }
+  .left-icons{
+    display: flex;
+    align-items: center;
+  }
+  .jobmate{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin-left: 20px;
+  }
+  .right-button:hover{
+    background-color: lightblue;
+
+  }
