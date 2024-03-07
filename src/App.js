@@ -35,6 +35,7 @@ function App() {
            <Route path="/studentr" element={<Studentregistration />} />
            <Route path="/events" element={<Events />} />
            <Route path="/" element={<Landing_page />} />
+           <Route path="/inex" element={<ContentList />} />
 
            <Route path="/input" element={<Input />} />
            <Route path="/navbar" element={<Navbar />} />
