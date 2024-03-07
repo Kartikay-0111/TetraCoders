@@ -1,5 +1,5 @@
 import React from 'react';
-import './navdash.css'; // You can create a CSS file for styling
+
 import ChatApp from '../chat/chat'; 
 import { IoChatboxEllipsesOutline } from "react-icons/io5"; 
 import { useState } from 'react';

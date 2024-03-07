@@ -36,8 +36,9 @@ const ContentList = () => {
         <div>
             <div className='w3-xxlarge'>Some content regarding interviews</div>
             <div>
-                <button className='w3-button w3-black w3-margin' onClick={() => handleCategoryChange('question')}>Questions</button>
-                <button className='w3-button w3-black' onClick={() => handleCategoryChange('experience')}>Experiences</button>
+                <button className='w3-button w3-round-xlarge w3-black w3-margin' onClick={() => handleCategoryChange('question')}>Questions</button>
+                <button className='w3-button w3-round-xlarge w3-black' onClick={() => handleCategoryChange('experience')}>Experiences</button>
+              <a href="/inex">  <button className='w3-button w3-round-xlarge w3-black'>All</button></a>
             </div>
             <div>
                 {error && <div>{error}</div>}
@@ -45,11 +46,11 @@ const ContentList = () => {
                 {content && content.map((content) => {
                     if (selectedCategory === '' || content.category === selectedCategory) {
                         return (
-                            <div className= "w3-animate-zoom w3-padding w3-hover-shadow w3-margin" key={content.id} >
+                            <div className= "w3-animate-zoom w3-round-xxlarge w3-padding w3-hover-shadow w3-margin" key={content.id} >
                                 <header className="w3-container w3-blue">
-                                    <div className="w3-xlarge">Contributed by {content.username}</div>
+                                    <div className="w3-xlarge w3-round-xlarge">Contributed by {content.username}</div>
                                 </header>
-                                <div className="w3-xlarge">{content.title}</div>
+                                <div className="w3-xlarge w3-round-xlarge">{content.title}</div>
                                 <p>{content.body}</p>
                                 <footer className="w3-container w3-blue">
                                     <span>Contributed on : {content.date}</span>&nbsp;&nbsp;
