@@ -32,7 +32,7 @@ const [error,setError] = useState(null)
                 {error && <div>{error}</div>}
                 {isPending && <div>Loading...</div>}
                 {content && content.map(content => (
-                    <div className="w3-padding w3-hover-shadow w3-margin" key={content.id} >
+                    <div className="w3-animate-zoom w3-padding w3-hover-shadow w3-margin" key={content.id} >
                         <header className="w3-container w3-blue">
                             <div className="w3-xlarge">Contributed by {content.username}</div>
                         </header>

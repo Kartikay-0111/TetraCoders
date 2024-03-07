@@ -6,7 +6,8 @@ import Student_dashboard from './components/student-dashboard/student-dashboard'
 import Navbar from './components/library/Navbar.jsx';
 import data from './components/calendar/DataBase/data.jsx';
 import Events from './components/calendar/Events/Events';
-import Experience from './components/library/inexpe';
+import Studentregistration from './components/login/registrationpage1';
+import Experience from './components/library/ContentList.jsx';
 import ChatApp from './components/chat/chat.jsx';
 import Collegeregistration from './components/login/registrationpage3';
 import { Router, Route, Routes, BrowserRouter , useLocation} from 'react-router-dom';
@@ -16,11 +17,7 @@ import Navdash from './components/navbar_dash/navdash.jsx'
 
 import Input from './components/library/input.jsx';
 import Input2 from './components/library/input2.jsx';
-import Studentregistration from './components/login/registrationpage1.jsx';
-import Home from './components/library/home.jsx';
-
-
-
+import ContentList from './components/library/ContentList.jsx';
 
 function App() {
   useEffect(() => {
